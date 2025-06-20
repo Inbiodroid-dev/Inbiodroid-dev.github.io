@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>KineosView | Inicio</title>
+  <style>
+    @font-face {
+      font-family: 'Lemon Milk';
+      src: url('assets/fonts/LEMONMILK-Regular.otf') format('opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Lemon Milk Bolt';
+      src: url('assets/fonts/LEMONMILK-Bolt.otf') format('opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      font-family: 'Lemon Milk', sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex-grow: 1;
+    }
+
+    img {
+      max-width: 300px;
+      margin-bottom: 10px;
+    }
+
+    .separator {
+      width: 60%;
+      height: 2px;
+      background-color: #007acc;
+      margin: 20px auto;
+      border-radius: 1px;
+    }
+
+    .projects-box {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 2px solid #007acc;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+
+    .projects-info {
+      font-family: 'Lemon Milk Bolt', sans-serif;
+      font-size: 1.5em;
+      color: #007acc;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    .project-link {
+      display: inline-block;
+      padding: 8px 16px;
+      border: 2px solid #007acc;
+      border-radius: 12px;
+      font-size: 1.1em;
+      color: #007acc;
+      text-decoration: none;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    .project-link:hover {
+      background-color: #007acc;
+      color: white;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="https://inbiodroid.com/" target="_blank" rel="noopener">
+      <img src="assets/img/logo2.png" alt="Logo de KineosView">
+    </a>
+
+    <div class="separator"></div>
+
+    <!-- <div class="projects-box"> -->
+      <p class="projects-info">Proyectos</p>
+    </div>
+
+    <ul>
+      <li>
+        <a class="project-link" href="https://inbiodroid.com/prom2.html" target="_blank" rel="noopener">
+          Prometheus
+        </a>
+      </li>
+      <li><a class="project-link" href="exokineos/">Exo-Kineos</a></li>
+    </ul>
+  </main>
+</body>
+</html>
