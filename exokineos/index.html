@@ -20,19 +20,15 @@
       justify-content: center;
       min-height: 100vh;
       margin: 0;
-      padding: 40px;
+      padding: 5px;
       text-align: center;
       position: relative;
     }
 
     .gif-marco {
-      position: absolute;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 999;
-      pointer-events: none;
-      padding: 5px; /* espacio entre el marco y el GIF */
+      position: relative;
+      margin: 0 auto 10px;
+      padding: 5px;
       border: 20px solid #ffffff;
       border-radius: 20px;
       box-sizing: content-box;
@@ -41,7 +37,7 @@
 
     .gif-marco img {
       display: block;
-      border-radius: 50px;
+      border-radius: 25px;
       width: 500px;
     }
 
@@ -49,7 +45,7 @@
       font-family: 'Lemon Milk', sans-serif;
       font-size: 2.5em;
       color: #007acc;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
     }
 
     .boton {
@@ -79,11 +75,9 @@
   </style>
 </head>
 <body>
-  <!-- Marco azul que envuelve el GIF -->
   <div class="gif-marco">
     <img src="../assets/img/exokineos.gif" alt="GIF animado" />
   </div>
-
   <h1>Descargas de ExoKineos</h1>
   <div class="separator"></div> 
   <a class="boton" href="downloads/MUExoKineos_v1_0.pdf" download>📄 Descargar Manual de Usuario (PDF)</a>
